@@ -2,6 +2,10 @@
     z-index: 9999999 !important;
 }
 
+button:focus {
+    outline: 0
+}
+
 /*------------------------------------------------------------------
     [Header]
 ------------------------------------------------------------------*/
@@ -576,6 +580,10 @@ textarea {
     font-weight: bold
 }
 
+.getApp img {
+    max-width: 100%
+}
+
 /*------------------------------------------------------------------
     [About Us]
 ------------------------------------------------------------------*/
@@ -724,8 +732,10 @@ textarea {
 
 .box-2,
 .box-3 {
+    max-width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(244, 89, 89, 0.24);
     transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+
 }
 
 .box-2:hover,
@@ -745,21 +755,24 @@ textarea {
     padding-top: 35px;
     margin-bottom: 70px;
     text-align: right;
-
+    max-width: 100%
 }
 
 .box-shad-1 {
     box-shadow: 0 0 15px 0px rgb(250, 134, 91), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    margin-top: 20px
+    margin-top: 20px;
+    max-width: 100%
 }
 
 .box-shad-4 {
     box-shadow: 0 0 20px 0px rgb(135, 201, 127), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    margin-top: 20px
+    margin-top: 20px;
+    max-width: 100%;
 }
 
 .box-shad-5 {
     box-shadow: 0 0 20px 0px rgb(135, 201, 127), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    max-width: 100%
 }
 
 
@@ -781,7 +794,8 @@ textarea {
     width: 280px;
 
     padding-left: 11px;
-    margin-bottom: 70px
+    margin-bottom: 70px;
+    max-width: 100%
 }
 
 .box-txt-b h3 {
@@ -1133,4 +1147,10 @@ messages
     z-index: -1;
     top: 0;
     left: 0
+}
+
+@media (max-width: 767px) {
+    .box-2 {
+        max-width: 100%
+    }
 }
