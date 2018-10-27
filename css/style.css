@@ -1,5 +1,11 @@
+* {}
+
 .nicescroll-rails {
     z-index: 9999999 !important;
+}
+
+*:hover {
+    text-decoration: none!important
 }
 
 button:focus {
@@ -129,9 +135,9 @@ button:focus {
 
 .header .logo-img {
     display: inline-block;
-    width: 150px;
+    width: 200px;
     height: auto;
-    max-width: 170%;
+    max-width: 180%;
     max-height: 100%;
     vertical-align: middle;
 }
@@ -205,7 +211,7 @@ button:focus {
 
 .header .nav-item-hover {
     position: relative;
-    color: #004950;
+    color: #263536;
     border-bottom: 5px solid #fff;
     transition: all .4s ease-in;
     font-size: 15px
@@ -294,16 +300,22 @@ button:focus {
     }
     .header .nav-item-hover {
         position: relative;
-        color: #004950;
+        color: #263536;
         border-bottom: 0px solid #fff
     }
 
     .header .nav-item-hover:hover {
         position: relative;
         text-decoration: none;
-        padding-right: 10px;
+        padding-right: 20px;
         border-bottom: 0;
+
+        position: relative;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     }
+
 }
 
 /* Media Queries below 767px */
@@ -331,7 +343,6 @@ button:focus {
     }
     .header .nav-item-hover {
         position: relative;
-        color: #016b71;
         border-bottom: 0px solid #fff
     }
 
@@ -359,8 +370,10 @@ button:focus {
 
 @media (max-width: 992px) {
 
+
     .register {
-        margin-top: 220px;
+        margin-top: 80px;
+        max-width: 100%
     }
 }
 
@@ -393,8 +406,8 @@ button:focus {
         transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
     }
     .register {
-        margin-top: 300px;
-        margin-right: 50px
+        margin: 7% 40%;
+
     }
 }
 
@@ -591,7 +604,8 @@ textarea {
 .about {
     color: #fff;
     background-color: #004950;
-    padding: 50px
+    padding: 50px;
+    overflow: hidden
 }
 
 .about h2 {
@@ -605,11 +619,11 @@ textarea {
 
 .about .child-img {
     width: 100%;
-    margin-top: 15%
+    margin-top: 20%
 }
 
 .sections-ab .child-img {
-    max-width: 700px;
+    max-width: 400px;
     overflow: hidden:!important;
     padding-top: 40px
 }
@@ -646,9 +660,14 @@ textarea {
     border-right: 5px solid #bd33a3
 }
 
+.about .color-4 {
+    border-right: 5px solid #a1ce5d
+}
+
 .about .color-1,
 .color-2,
-.color-3 {
+.color-3,
+.color-4 {
     box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.26)
 }
 
@@ -670,6 +689,7 @@ textarea {
     border-radius: 7px;
     padding: 39px;
     border-right: 5px solid #446d6f;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .box-1 span {
@@ -707,7 +727,7 @@ textarea {
 }
 
 .box-2 h5 {
-    font-size: 27px
+    font-size: 27px;
 }
 
 .box-3 {
@@ -735,7 +755,7 @@ textarea {
     max-width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(244, 89, 89, 0.24);
     transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
-
+    text-align: right;
 }
 
 .box-2:hover,
@@ -752,7 +772,7 @@ textarea {
     width: 280px;
     height: 200px;
     border-radius: 10px;
-    padding-top: 35px;
+    padding-top: 12px;
     margin-bottom: 70px;
     text-align: right;
     max-width: 100%
@@ -779,13 +799,15 @@ textarea {
 .box-txt h3 {
     padding-right: 10px;
     color: #3f3f3f;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 28px
 }
 
 .box-txt p {
-    font-size: 15px;
+    font-size: 17.4px;
     padding-right: 10px;
-    color: #222
+    color: #222;
+    padding-left: 10px
 }
 
 .box-txt-b {
@@ -795,7 +817,9 @@ textarea {
 
     padding-left: 11px;
     margin-bottom: 70px;
-    max-width: 100%
+    max-width: 100%;
+    min-height: 150px;
+
 }
 
 .box-txt-b h3 {
@@ -804,7 +828,8 @@ textarea {
 }
 
 .box-txt-b p {
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    font-size: 17.4px
 }
 
 .about-img-1 {
@@ -818,7 +843,9 @@ textarea {
     box-shadow: 0px 2px 15px 0px rgba(6, 99, 250, 0.32);
     margin-top: 90px;
     text-align: right;
-    padding-right: 10px
+    padding-right: 10px;
+    padding-top: 1px;
+
 }
 
 .border-r-r {
@@ -826,7 +853,8 @@ textarea {
     box-shadow: 0px 2px 15px 0px rgba(250, 171, 6, 0.32);
     margin-top: 200px;
     text-align: right;
-    padding-right: 10px
+    padding-right: 10px;
+    padding-top: 1px
 }
 
 .border-r {
@@ -881,7 +909,8 @@ childrens
 
 .clidrens .child-data img {
     height: 150px;
-    width: 150px
+    width: 150px;
+    max-width: 100%
 }
 
 .clidrens .child-data h3 {
@@ -899,7 +928,7 @@ messages
 
     color: #fff;
     font-weight: 800;
-    background: url('../img/pic2.png') no-repeat center center;
+    background: url("../img/pic2.png") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -915,115 +944,45 @@ messages
     bottom: 0
 }
 
+.carousel-content {
+    color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#text-carousel {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background: none !important;
+    filter: progid: none !important;
+    outline: 0;
+}
+
 .about-read {
 
-    margin-top: 40px;
+    margin-top: 200px;
     color: #fff;
     font-size: 15px
 }
 
 
-
-.about-ops-info {
-    margin-top: 200px;
-}
-
 .about-ops-info h3 {
     color: #ddd;
     font-size: 30px;
     font-weight: bold;
-    width: 80%;
 }
 
 .about-ops-info p {
-    width: 80%
+    font-size: 25px
 }
 
-.about-ops {}
-
-
-
-.about-ops-1,
-.about-ops-2,
-.about-ops-3 {
-    position: absolute;
-    display: block;
-    top: 2em;
-
-    width: 60%;
-
-    font-size: 2em;
-
-    animation-duration: 20s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    overflow: hidden
-}
-
-.about-ops-1 {
-    animation-name: anim-1;
-}
-
-.about-ops-2 {
-    animation-name: anim-2;
-}
-
-.about-ops-3 {
-    animation-name: anim-3;
-}
-
-@keyframes anim-1 {
-    0%,
-    8.3% {
-        left: -100%;
-        opacity: 0;
-    }
-    8.3%,
-    25% {
-        left: 25%;
-        opacity: 1;
-    }
-    33.33%,
-    100% {
-        left: 110%;
-        opacity: 0;
-    }
-}
-
-@keyframes anim-2 {
-    0%,
-    33.33% {
-        left: -100%;
-        opacity: 0;
-    }
-    41.63%,
-    58.29% {
-        left: 25%;
-        opacity: 1;
-    }
-    66.66%,
-    100% {
-        left: 110%;
-        opacity: 0;
-    }
-}
-
-@keyframes anim-3 {
-    0%,
-    66.66% {
-        left: -100%;
-        opacity: 0;
-    }
-    74.96%,
-    91.62% {
-        left: 25%;
-        opacity: 1;
-    }
-    100% {
-        left: 110%;
-        opacity: 0;
-    }
-}
 
 .about-read hr {
     margin-top: 9px;
@@ -1032,13 +991,14 @@ messages
 
 }
 
+
 @media(max-width:992px) {
     .about-ops-info p {
-        width: 90%;
-        font-size: 20px
+
+        font-size: 15px
     }
     .about-read hr {
-        width: 10%
+        width: 20%
     }
 
 }
@@ -1065,6 +1025,18 @@ messages
 
 .add-child button:hover {
     background: #01626b
+}
+
+.add-child button:focus {
+    background: #01626b;
+    outline: none;
+    border: none
+}
+
+.add-child button:Active {
+    background: #01626b;
+    outline: none;
+    border: none
 }
 
 .child-data h3 a:hover {

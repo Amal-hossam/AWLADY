@@ -74,7 +74,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0px;
+    margin: px;
 }
 
 p {
@@ -417,10 +417,16 @@ iframe {
     margin-top: 120px;
     padding: 42px 55px 33px 55px;
     box-shadow: 0 0 20px 0px rgba(0, 73, 80, 0.31)inset, 0 5px 5px 0 rgba(0, 0, 0, 0.24)inset;
+    max-width: 100%
+}
 
+.wrap-login100 img {
+    max-width: 100%
 }
 
 .wrap-login100-form-btn {
+    max-width: 100%;
+
     width: 100%;
     display: block;
     position: relative;
