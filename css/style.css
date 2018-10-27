@@ -576,6 +576,10 @@ textarea {
     .infoo-contact {
         padding-bottom: 23px
     }
+    .infoo-contact h4 {
+        margin-bottom: 20px
+    }
+
 }
 
 
@@ -590,11 +594,29 @@ textarea {
 }
 
 .getApp h1 {
-    font-weight: bold
+    font-weight: bold;
+    color: #4f565f;
+
 }
 
 .getApp img {
     max-width: 100%
+}
+
+.logoo-pic-1 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+
+}
+
+.logoo-pic-1 img {
+    width: 50%
+}
+
+.logoo-pic-2 img {
+    margin-top: -13%;
+    width: 900px;
 }
 
 /*------------------------------------------------------------------
