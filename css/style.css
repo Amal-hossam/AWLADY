@@ -733,7 +733,6 @@ textarea {
     margin-top: -100px;
     background: #ff875b;
     width: 280px;
-    height: 200px;
     padding: 39px;
 }
 
@@ -756,7 +755,7 @@ textarea {
     margin-top: 70px;
     background: #87c97f;
     width: 280px;
-    height: 200px;
+    min-height: 200px;
 
     padding: 39px;
 }
@@ -792,12 +791,12 @@ textarea {
 .box-txt {
     color: #000;
     width: 280px;
-    height: 200px;
     border-radius: 10px;
     padding-top: 12px;
     margin-bottom: 70px;
     text-align: right;
-    max-width: 100%
+    max-width: 100%;
+    padding-bottom: 10px
 }
 
 .box-shad-1 {
@@ -888,6 +887,9 @@ textarea {
 }
 
 @media(max-width:991px) {
+    .box-1 {
+        width: 200px
+    }
     .about .child-img {
         margin: 0
     }
@@ -1069,7 +1071,6 @@ messages
 @media(max-width:992px) {
     .clidrens .child-data {
         margin: 20px auto;
-        width: 60%;
     }
 }
 
