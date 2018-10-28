@@ -1144,8 +1144,10 @@ messages
     left: 0
 }
 
-@media (max-width: 767px) {
-    .box-2 {
-        max-width: 100%
+@media (max-width: 992px) {
+
+
+    .add-child button {
+        min-width: 80%
     }
 }
