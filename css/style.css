@@ -520,7 +520,7 @@ button:focus {
 
 @media(max-width:992px) {
     .theright-lo {
-        margin-top: -30%
+        margin-top: -60%
     }
 
     .slid-h .carousel-content p {
@@ -535,10 +535,13 @@ button:focus {
     }
 
     .theright-lo {
-        margin-top: %
+        margin-top: -50%;
+
     }
     .slid-h .carousel-content p {
-        /* margin-top: 80px*/
+        width: 300px;
+        margin-right: 15px;
+        margin-left: 15px
     }
     .slid-h .row .col-md-6 {
         margin-right: 20px;
@@ -547,7 +550,9 @@ button:focus {
     .slid-h .carousel-control.right {
         right: 1px
     }
-
+    #section07 {
+        margin-top:
+    }
 }
 
 /*
@@ -659,6 +664,13 @@ button:focus {
     }
     100% {
         opacity: 0;
+    }
+}
+
+@media(max-width:992px) {
+
+    #section07 {
+        margin-top: 30px
     }
 }
 
