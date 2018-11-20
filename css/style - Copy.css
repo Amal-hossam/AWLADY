@@ -445,11 +445,10 @@ button:focus {
 }
 
 .slid-h-data {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .8);
     min-height: 800px;
     bottom: 0
 }
-
 
 .slid-h .about-read {
     margin-top: 200px;
@@ -477,396 +476,12 @@ button:focus {
 
 .slid-h h2 {
     color: #edcb87;
-
+    padding-top: 200px;
+    margin-bottom: ;
     font-size: 60px;
-    font-weight: bold;
-    top: 40%;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin-right: auto;
-    margin-left: auto
-}
-
-.carousel-caption {
-    bottom: 30%;
-    direction: rtl;
-    font-size: 40px
-}
-
-.carousel-caption .h-all {
-    width: 100%;
-    direction: rtl;
-    position: relative
-}
-
-.carousel-caption .h-textt {
-    width: 90%;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 15px;
-    bottom: 0;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: auto;
-    margin-left: auto;
-    font-weight: 500
-}
-
-.carousel-caption .h-num {
-    width: 10%;
-    font-size: 80px;
-    font-weight: bold;
-    color: #dfae4d;
-    position: absolute;
-    right: -20px;
-    left: 0%;
-}
-
-.carousel-caption .h-num-2 {
-    right: 50px;
-    left: 0
-}
-
-.carousel-caption .h-text-3 {
-    top: 140px;
-    bottom: 0;
-    left: 100px;
-}
-
-.carousel-caption .h-text-4 {
-    top: 140px;
-    bottom: 0;
-    right: 140px;
-}
-
-.carousel-caption .h-all-n {
-    margin-top: 50px
-}
-
-.carousel-caption .h-ttt {
-    font-size: 18px;
-    margin-left: 95%;
     font-weight: bold
 }
 
-.carousel-caption .h-tttt {
-
-    font-size: 18px;
-    margin-left: 80%;
-    font-weight: bold
-}
-
-.carousel-indicators {
-    bottom: 15%;
-
-}
-
-.carousel-indicators li {
-    width: 20px;
-    height: 7px;
-    border-color: #dfae4d
-}
-
-.carousel-indicators .active {
-    width: 22px;
-    height: 10px;
-    background: #016670
-}
-
-@media(min-width:1600px) {}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-
-    .slid-h h2 {
-        font-size: 50px;
-        top: 20%
-    }
-    .carousel-caption {
-        bottom: 62%;
-        font-size: 15px
-    }
-
-    .carousel-indicators {
-        bottom: 55%
-    }
-
-    .carousel-caption .h-textt {
-        top: 25%;
-        font-size: 30px
-    }
-
-    .carousel-caption .h-textt-1 {
-        bottom: 50%;
-
-    }
-    .carousel-caption .h-num {
-        right: 10px;
-        font-size: 60px;
-    }
-
-    .carousel-caption .h-num-2,
-    .carousel-caption .h-num-1 {
-        right: -20px;
-        top: -12px
-    }
-    .carousel-caption .h-num-2 {
-        right: 35px
-    }
-
-    .carousel-caption .h-text-3 {
-        top: 135px;
-        bottom: 0;
-        left: 100px;
-    }
-
-    .carousel-caption .h-text-4 {
-        top: 130px;
-        bottom: 0;
-        right: 130px;
-        line-height: 40px
-    }
-
-
-
-    .carousel-caption .h-ttt {
-        font-size: 18px;
-        margin-left: 95%;
-    }
-
-    .carousel-caption .h-tttt {
-
-        font-size: 18px;
-        margin-left: 80%;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .slid-h h2 {
-        font-size: 40px;
-        top: 30%
-    }
-    .carousel-caption {
-        bottom: 50%;
-        font-size: 15px
-    }
-
-    .carousel-indicators {
-        bottom: 35%
-    }
-
-    .carousel-caption .h-textt {
-        top: 25%;
-        font-size: 25px
-    }
-
-    .carousel-caption .h-textt-1 {
-        bottom: 50%;
-
-    }
-    .carousel-caption .h-num {
-        right: 10px;
-        font-size: 60px;
-    }
-
-    .carousel-caption .h-num-2,
-    .carousel-caption .h-num-1 {
-        right: -10px;
-        top: -12px
-    }
-    .carousel-caption .h-num-2 {
-        right: 20px
-    }
-
-    .carousel-caption .h-text-3 {
-        top: 135px;
-        bottom: 0;
-        left: -90px;
-    }
-
-    .carousel-caption .h-text-4 {
-        top: 120px;
-        bottom: 0;
-        right: 100px;
-        line-height: 40px
-    }
-
-
-
-    .carousel-caption .h-ttt {
-        font-size: 18px;
-        margin-left: 95%;
-    }
-
-    .carousel-caption .h-tttt {
-
-        font-size: 18px;
-        margin-left: 80%;
-    }
-
-}
-
-@media (max-width: 767px) {
-    .slid-h h2 {
-        font-size: 25px;
-        top: 40%;
-        line-height: 40px
-    }
-    .carousel-caption {
-        bottom: 35%;
-        font-size: 15px
-    }
-
-    .carousel-indicators {
-        bottom: 15%
-    }
-
-    .carousel-caption .h-textt {
-        top: 25%;
-        font-size: 22px;
-        line-height: 30px
-    }
-
-    .carousel-caption .h-textt-1 {
-        bottom: 50%;
-
-    }
-    .carousel-caption .h-num {
-        right: 10%;
-        font-size: 40px;
-    }
-
-    .carousel-caption .h-num-1 {
-        right: -7%;
-        top: -5px
-    }
-    .carousel-caption .h-num-2 {
-        left: 0px;
-        top: -4px;
-        width: 15%;
-
-    }
-
-    .carousel-caption .h-text-2 {
-        width: 85%;
-        left: 30%
-    }
-    .carousel-caption .h-num-3 {
-        right: -10px;
-        font-size: 40px;
-        width: 15%
-    }
-    .carousel-caption .h-text-3 {
-        top: 120px;
-        bottom: 0;
-        left: -30%;
-        width: 85%
-    }
-
-    .carousel-caption .h-text-4 {
-        top: 90px;
-        bottom: 0;
-        right: 60%;
-        line-height: 40px;
-        width: 85%
-    }
-    .carousel-caption .h-num-4 {
-        width: 15%;
-        left: -30%
-    }
-
-
-    .carousel-caption .h-ttt {
-        font-size: 13px;
-        margin-left: 60%;
-    }
-
-    .carousel-caption .h-tttt {
-
-        font-size: 13px;
-        margin-left: 60%;
-    }
-
-}
-
-@media (max-width: 480px) {
-    .slid-h h2 {
-        font-size: 25px;
-        top: 40%;
-        line-height: 40px
-    }
-    .carousel-caption {
-        bottom: 30%;
-        font-size: 15px
-    }
-
-    .carousel-indicators {
-        bottom: 8%
-    }
-
-    .carousel-caption .h-textt {
-        top: 25%;
-        font-size: 19px;
-        line-height: 30px
-    }
-
-    .carousel-caption .h-textt-1 {
-        bottom: 50%;
-
-    }
-    .carousel-caption .h-num {
-        right: 10%;
-        font-size: 40px;
-    }
-
-    .carousel-caption .h-num-1 {
-        right: -7%;
-        top: -5px
-    }
-    .carousel-caption .h-num-2 {
-        right: -8%;
-        top: -4px
-    }
-    .carousel-caption .h-num-3 {
-        right: 10%;
-        font-size: 40px;
-        width: 15%
-    }
-    .carousel-caption .h-text-3 {
-        top: 120px;
-        bottom: 0;
-        left: -50%;
-        width: 85%
-    }
-
-    .carousel-caption .h-text-4 {
-        top: 120px;
-        bottom: 0;
-        right: 30%;
-        line-height: 30px
-    }
-    .carousel-caption .h-num-4 {
-        right: -6%
-    }
-
-
-    .carousel-caption .h-ttt {
-        font-size: 10px;
-        margin-left: 60%;
-    }
-
-    .carousel-caption .h-tttt {
-
-        font-size: 10px;
-        margin-left: 80%;
-    }
-
-}
-
-/*
 .slid-h .carousel-control .glyphicon-chevron-left,
 .slid-h .carousel-control .glyphicon-chevron-right,
 .slid-h .carousel-control .icon-prev,
@@ -893,18 +508,16 @@ button:focus {
     .slid-h .carousel-control .glyphicon-chevron-right,
     .slid-h .carousel-control .icon-next {
         /* left: -40%*/
+    }
+
+    .slid-h .carousel-control .glyphicon-chevron-left,
+    .slid-h .carousel-control .icon-prev {
+        /*right: -40%;*/
+    }
+
 
 }
 
-.slid-h .carousel-control .glyphicon-chevron-left,
-.slid-h .carousel-control .icon-prev {
-    /*right: -40%;*/
-}
-
-
-}
-
-/*
 @media(max-width:992px) {
     .theright-lo {
         margin-top: -60%
@@ -967,10 +580,12 @@ button:focus {
     content: '';
     width: 100%;
     height: 80%;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .8) 80%, rgba(0, 0, 0, .8) 100%);
 }
 
 #section07 {
-    background: center center / cover no-repeat;
+    background: url(https://picsum.photos/1200/800?image=675) center center / cover no-repeat;
 }
 
 .s-down a {
@@ -1001,8 +616,8 @@ button:focus {
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 1px solid #fcaa06;
-    border-bottom: 1px solid #fcaa06;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb07 2s infinite;
@@ -1067,15 +682,12 @@ button:focus {
 ------------------------------------------------------------------*/
 
 .carousel-indicators {
-    /* right: 0;
+    right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    */
-    /* position: static*/
 }
 
-/*
 .carousel-centered {
     position: absolute;
     top: 50%;
@@ -1135,7 +747,6 @@ button:focus {
 
 /*here*/
 
-/*
 .register {
     margin-top: ;
 }
@@ -1143,9 +754,6 @@ button:focus {
 .link-s {
     font-size: 17px
 }
-*/
-
-.item {}
 
 /*------------------------------------------------------------------
     [Footer]
@@ -1258,8 +866,7 @@ textarea {
 
 .getApp {
     color: #184848;
-    padding-top: 40px;
-    padding-bottom: 40px
+    padding: 40px;
 }
 
 .getApp h1 {
@@ -1295,8 +902,7 @@ textarea {
 .about {
     color: #fff;
     background-color: #004950;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
     overflow: hidden
 }
 
@@ -1371,8 +977,7 @@ textarea {
 .sections-ab {
     color: #fff;
     background-color: #f0f2f1;
-    padding-top: 40px;
-    padding-bottom: :40px
+    padding: 40px
 }
 
 .box-1 {
@@ -1489,7 +1094,7 @@ textarea {
 
 .box-txt h3 {
     padding-right: 10px;
-    color: #000;
+    color: #3f3f3f;
     font-weight: bold;
     font-size: 28px
 }
